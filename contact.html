@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <Style>
+        .form{
+            width: 500px;
+            margin: auto;
+            padding: 30px;
+            border: 2px solid green;
+            border-radius: 10px;
+            
+        }
+        .title{
+            color: aqua;
+            text-shadow: 1px 1px red,2px 2px goldenrod;
+            text-decoration: underline;
+        }
+        .form label{
+            color: blue;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .form input{
+            font-size: 20px;
+            border-radius: 10px;
+            border: none;
+            padding-left: 10px;
+            background-color: rgb(33, 209, 209);
+            width: 500px;
+        }
+        .form textarea{
+            color: aqua;
+            background-color: rgb(18, 218, 218);
+            border-radius: 10px;
+            border: none;
+            padding: 5px;
+            font-size: 15px;
+            width: 500px;
+        }
+        .form .btn{
+            margin-left: 200px;
+            font-size: 30px;
+        }
+        .form input::placeholder{
+            font-style: italic;
+            font-size: 20px;
+            color: azure;
+        }
+    </Style>
+</head>
+<body>
+    <form action="" class="form">
+        <h1><i class="title">Contact Form</i></h1>
+        <label for="">Enter Firstname</label><br>
+        <input type="text" name="Firstname" placeholder="Enter Firstname"><br><br>
+        <label for="">Enter Lastname</label><br>
+        <input type="text" name="Lastname" placeholder="Enter Lastname"><br><br>
+        <label for="">Enter Email</label><br>
+        <input type="text" name="Email" placeholder="Enter Email"><br><br>
+        <label for="">Password</label><br>
+        <input type="password" name="password" placeholder="Enter password"><br><br>
+        
+        <label>Text Massage</label><br>
+        <textarea name="" id="" placeholder="Write your Massage"></textarea><br><br>
+        <button class="btn">Submit</button>
+
+
+    </form>
+</body>
+</html>
