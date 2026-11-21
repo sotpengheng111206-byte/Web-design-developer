@@ -1,0 +1,10 @@
+display flex; stright run in css
+gap: xpx; space
+colspan one cllom
+cellspacing one line table
+rowspan one row
+Authentication for admin
+Authorizetion for user
+.=class,#=id,no=take
+take decrition=underline
+
